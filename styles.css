@@ -1,3 +1,9 @@
+head {
+    margin: 0;
+    background: gray;
+    text-align: center;
+    color: darkblue;
+}
 body {
     margin: 0;
     background: whitesmoke;
