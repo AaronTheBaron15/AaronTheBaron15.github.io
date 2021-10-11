@@ -1,0 +1,38 @@
+Graded on: 5/15/2019
+Graded By: Scott Griffith
+
+LM9.1: Baby Names
+
+I am not sure Line 101 is doing what you think it is doing. What happens if the number is more than two digits?
+
+On the right path, not quite there yet.
+7/10 babyNames20yy_boySorted.dat / babyNames20yy_girlSorted.dat
+
+0/10 Duplicates babyNames20YY_duplicates.dat
+
+0/20 Super List babyNames2013_2017.dat
+
+3/10 Demonstrate
+
+Sub total: 10/50
+
+LM9.2 Complex Number Class 
+Lol, fake.
+
+10/10 Basic Class construcors (empty, real component, both and copy)
+
+abs()
+to_string() - Probably don't want to put in a 0i
+getRealComponent() / getImaginaryComponent()
+operator[] 
++/-/*// Operators
+Assignment Operators
+Relational Operators
+Stream insertion Operator
+30/30
+
+10/10 Unit test
+ Nice!
+Sub Total: 50/50
+
+Score: 60/100

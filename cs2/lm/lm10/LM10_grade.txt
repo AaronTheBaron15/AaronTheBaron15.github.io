@@ -1,0 +1,20 @@
+Graded on: 5/10/2019
+Graded By: Scott Griffith
+
+LM10: Polymorphic Zoo
+
+- makeNoise needed to use getName
+- Nice reference for giraffe
+16/20 4xDerived Animals
+
+10/10 vector<Animal * > (12 elements)
+
+10/10 Polymorphic Examples
+
+10/10 Documentation
+
++2 You were on the right track for dynamic_cast but didn't quite get there
+
+Score total: 46/50
+
+

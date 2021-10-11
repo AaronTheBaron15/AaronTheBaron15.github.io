@@ -1,0 +1,12 @@
+Graded by Eli Min
+
+Section 1 - Object 1 UML | Make sure to add public/private markers to all the elements in your class.
+
+Section 1 - Object 1 Implementation | -3 | Make sure that you're documenting where you get help from. Also, you don't have to use paths to reference a header file.
+
+Section 2 - Object 2 Testing | -3 | Your iteration is on the right track but doesn't actually scroll from the lower even number to the higher even number because it’s not keeping track of the latest value. 
+
+Note: Your classes should be in the same project folder. You don’t need two separate projects to house Stopwatch and EvenNumber. No points deducted this time but will be in the future. 
+
+
+44/50

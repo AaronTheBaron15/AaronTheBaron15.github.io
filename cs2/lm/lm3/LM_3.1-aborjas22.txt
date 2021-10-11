@@ -1,0 +1,6 @@
+Graded by Scott Griffith
+
+Anagram Check: The basic problem is that you are not interacting with the string in a nice way. I have added some cout statements and changed some code to see exactly where, but I need to move on to other grades.
+You are close, but your string operations are not quite there.
+
+45/50
