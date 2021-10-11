@@ -1,0 +1,14 @@
+Graded on 10/18/2018 by Scott
+
+Part 1
+20/20
+Code: Great!
+
+
+Part 2
+/30
+Code: Good!
+I don't love 120-128, but it gets the job done.
+
+
+Total: 50/50

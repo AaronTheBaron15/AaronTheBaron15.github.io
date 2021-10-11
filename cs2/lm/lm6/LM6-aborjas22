@@ -1,0 +1,13 @@
+04/10/2019
+Graded by Eli Min
+
+Indexes in Arrays | -3 | Doesn’t show what happens in the scenario posed by the prompt. 
+
+Lines 130-184 | -7 | Doesn't coherently demonstrate what happens in the scenario described by the prompt.
+
+Section 1 - Make a recursive array reversal function. | -8 | On the right track but doesn't actually reverse the array. 
+
+Section 2 - Determine statistics for grades.  | -4 | Incorrect indexes are reported, and mode doesn't work. 
+
+
+78/100

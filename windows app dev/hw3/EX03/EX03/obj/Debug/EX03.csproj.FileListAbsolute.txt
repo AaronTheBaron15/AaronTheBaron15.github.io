@@ -1,0 +1,6 @@
+C:\Users\aborjas22\Desktop\hw3\EX03\EX03\bin\Debug\EX03.exe.config
+C:\Users\aborjas22\Desktop\hw3\EX03\EX03\bin\Debug\EX03.exe
+C:\Users\aborjas22\Desktop\hw3\EX03\EX03\bin\Debug\EX03.pdb
+C:\Users\aborjas22\Desktop\hw3\EX03\EX03\obj\Debug\EX03.csprojAssemblyReference.cache
+C:\Users\aborjas22\Desktop\hw3\EX03\EX03\obj\Debug\EX03.exe
+C:\Users\aborjas22\Desktop\hw3\EX03\EX03\obj\Debug\EX03.pdb
