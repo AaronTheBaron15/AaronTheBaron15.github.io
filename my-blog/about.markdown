@@ -4,6 +4,7 @@ title: About
 permalink: /about/
 published: true
 ---
+[Home](home.markdown)
 
 Hi there! My name is Aaron and this is the website I have made to show some of my coding projects and interests to those who are interested! I'm glad you decided to stop by!
 

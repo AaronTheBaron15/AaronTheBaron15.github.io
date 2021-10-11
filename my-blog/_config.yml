@@ -22,10 +22,11 @@ title: Aaron Borjas
 email: aborjas22@my.whitworth.edu
 description: >- # this means to ignore newlines until "baseurl:"
   This is Aaron Borjas' site for showing computer science projects.
-baseurl: "/my-blog/index/index" # the subpath of your site, e.g. /blog
+baseurl: "/my-blog" # the subpath of your site, e.g. /blog
 url: "https://aaronthebaron15.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 github_username:  AaronTheBaron15
+encoding: UTF-8
 
 # Build settings
 theme: minima
