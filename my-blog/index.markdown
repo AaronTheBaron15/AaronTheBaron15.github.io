@@ -4,7 +4,7 @@
 
 layout: home
 title: index
-permalink: /intro/
+permalink: /index/
 published: true
 ---
 
