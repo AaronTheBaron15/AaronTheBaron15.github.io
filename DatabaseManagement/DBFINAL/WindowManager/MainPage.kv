@@ -1,0 +1,298 @@
+<MainPage>
+    name: 'main_page'
+    RelativeLayout:
+        canvas.before:
+            Color:
+                rgba: 5/255.0, 47/255.0, 61/255.0, 1
+            Rectangle:
+                size: self.size
+                pos: self.pos
+        canvas:
+            Color:
+                rgba: 0,0,0,1
+            Rectangle:
+                size: self.width/1.30, self.height
+                pos: self.center_x - (self.width/1.30) / 2, 0     
+            Line:
+                width: 2
+                rectangle: self.center_x - (self.width/1.30) / 2, 0, self.width/1.30, self.height
+        ActionBar:
+            pos_hint: {'top':1}
+            background_image: ''
+            background_color: 179/255.0, 179/255.0, 179/255.0, 1
+            ActionView:
+                ActionPrevious:
+                    with_previous: False  
+                    app_icon: ''
+                    size_hint_x: None
+                    markup: True
+                ActionOverflow:
+                ActionButton:
+                    text: 'Home'
+                    on_release: app.root.current = 'main_page'
+                    color: 0, 0, 0, 1
+                ActionButton:
+                    text: 'Stream'
+                    on_release: app.root.current = 'PlayScreen'
+                    color: 0, 0, 0, 1
+                ActionButton:
+                    text: 'Library'
+                    on_release: app.root.current = 'Album'
+                    color: 0, 0, 0, 1
+                ActionButton:
+                    text: 'Upload'
+                    color: 0, 0, 0, 1
+				ActionButton:
+					text: 'Sign In'
+					on_release: app.root.current = 'LoginWindow'
+				    #padding: [90]
+        GridLayout:
+            rows: 12
+            spacing: -60
+            Label:
+                text: 'Home'
+                font_size: 35
+            Label:
+                text: 'Trending'
+                text_size: self.size
+                valign: "middle"
+                padding_x: 130
+            GridLayout:
+                id: trending
+                spacing: -250
+                cols: 6
+                row_force_default: True
+                row_default_height: 10
+                #StackLayout:    
+                #    spacing: -60
+                #    Image:
+                #        size_hint_y: None
+                #        height:70
+                #        center: self.parent.center
+                #        source: 'Images/C2C.jpg'
+                #        allow_stretch: True
+                #    Label:
+                #        text: root.Query()
+                        #text: 'Song'
+                #StackLayout:    
+                #    spacing: -60
+                #    Image:
+                #        size_hint_y: None
+                #        height:70
+                #        center: self.parent.center
+                #        source:'Images/BucsList.png'
+                #        allow_stretch: True
+                #    Label:
+                #        text: "song"
+                #StackLayout:    
+                #    spacing: -60
+                #   Image:
+                #        size_hint_y: None
+                #        height:70
+                #        center: self.parent.center
+                #        source: 'Images/BucsList.png'
+                #        allow_stretch: True
+                #    Label:
+                #        text: "song"
+                #StackLayout:    
+                #    spacing: -60
+                #    Image:
+                #        size_hint_y: None
+                #        height:70
+                #        center: self.parent.center
+                #        source: 'Images/BucsList.png'
+                #        allow_stretch: True
+                #    Label:
+                #        text: "song"
+                #StackLayout:    
+                #    spacing: -60
+                #    Button:
+                #        background_normal: 'Images/BucsList.png'
+                #        on_release: app.root.current = 'Album'
+                #        size_hint: .1,.1
+
+                        #size_hint_y: None
+                        #height:70
+                        #center: self.parent.center
+                        #source: 'BucsList.png'
+                        #allow_stretch: True
+                    #Label:
+                        #   text: "song"
+                #Button: 
+                #    background_normal: 'BusList.png'
+                #    on_release: app.root.current = 'playscreen'
+            Label:
+                text: 'Recommended'
+                text_size: self.size
+                valign: "middle"
+                padding_x: 130
+            GridLayout:
+                spacing: -250
+                cols: 5
+                StackLayout:    
+                    spacing: -60
+                    Image:
+                        size_hint_y: None
+                        height:70
+                        center: self.parent.center
+                        source: 'Images/BucsList.png'
+                        allow_stretch: True
+                    Label:
+                        text: "song"
+                StackLayout:    
+                    spacing: -60
+                    Image:
+                        size_hint_y: None
+                        height:70
+                        center: self.parent.center
+                        source: 'Images/BucsList.png'
+                        allow_stretch: True
+                    Label:
+                        text: "song"
+                StackLayout:    
+                    spacing: -60
+                    Image:
+                        size_hint_y: None
+                        height:70
+                        center: self.parent.center
+                        source: 'Images/BucsList.png'
+                        allow_stretch: True
+                    Label:
+                        text: "song"
+                StackLayout:    
+                    spacing: -60
+                    Image:
+                        size_hint_y: None
+                        height:70
+                        center: self.parent.center
+                        source:'Images/BucsList.png'
+                        allow_stretch: True
+                    Label:
+                        text: "song"
+                StackLayout:    
+                    spacing: -60
+                    Image:
+                        size_hint_y: None
+                        height:70
+                        center: self.parent.center
+                        source:'Images/BucsList.png'
+                        allow_stretch: True
+                    Label:
+                        text: "song"
+            Label: 
+                text: 'Top Playlist'
+                text_size: self.size
+                valign: "middle"
+                padding_x: 130
+            GridLayout:
+                spacing: -250
+                cols: 5
+                StackLayout:    
+                    spacing: -60
+                    Image:
+                        size_hint_y: None
+                        height:70
+                        center: self.parent.center
+                        source: 'Images/BucsList.png'
+                        allow_stretch: True
+                    Label:
+                        text: "song"
+                StackLayout:    
+                    spacing: -60
+                    Image:
+                        size_hint_y: None
+                        height:70
+                        center: self.parent.center
+                        source: 'Images/BucsList.png'
+                        allow_stretch: True
+                    Label:
+                        text: "song"
+                StackLayout:    
+                    spacing: -60
+                    Image:
+                        size_hint_y: None
+                        height:70
+                        center: self.parent.center
+                        source: 'Images/BucsList.png'
+                        allow_stretch: True
+                    Label:
+                        text: "song"
+                StackLayout:    
+                    spacing: -60
+                    Image:
+                        size_hint_y: None
+                        height:70
+                        center: self.parent.center
+                        source: 'Images/BucsList.png'
+                        allow_stretch: True
+                    Label:
+                        text: "song"
+                StackLayout:    
+                    spacing: -60
+                    Image:
+                        size_hint_y: None
+                        height:70
+                        center: self.parent.center
+                        source: 'Images/BucsList.png'
+                        allow_stretch: True
+                    Label:
+                        text: "song"
+            Label:
+                text: 'Top Charts'
+                text_size: self.size
+                valign: "middle"
+                padding_x: 130
+            GridLayout:
+                spacing: -250
+                cols: 5
+                StackLayout:    
+                    spacing: -60
+                    Image:
+                        size_hint_y: None
+                        height:70
+                        center: self.parent.center
+                        source: 'Images/BucsList.png'
+                        allow_stretch: True
+                    Label:
+                        text: "song"
+                StackLayout:    
+                    spacing: -60
+                    Image:
+                        size_hint_y: None
+                        height:70
+                        center: self.parent.center
+                        source: 'Images/BucsList.png'
+                        allow_stretch: True
+                    Label:
+                        text: "song"
+                StackLayout:    
+                    spacing: -60
+                    Image:
+                        size_hint_y: None
+                        height:70
+                        center: self.parent.center
+                        source: 'Images/BucsList.png'
+                        allow_stretch: True
+                    Label:
+                        text: "song"
+                StackLayout:    
+                    spacing: -60
+                    Image:
+                        size_hint_y: None
+                        height:70
+                        center: self.parent.center
+                        source: 'Images/BucsList.png'
+                        allow_stretch: True
+                    Label:
+                        text: "song"
+                StackLayout:    
+                    spacing: -60
+                    Image:
+                        size_hint_y: None
+                        height:70
+                        center: self.parent.center
+                        source: 'Images/BucsList.png'
+                        allow_stretch: True
+                    Label:
+                        text: "song"
+

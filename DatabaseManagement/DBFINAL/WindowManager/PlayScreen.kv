@@ -1,0 +1,126 @@
+<PlayScreen>:
+
+    name: 'PlayScreen'
+
+    Label:
+        size_hint: None, None
+        size: self.texture_size 
+        text: 'Play Screen'
+
+    RelativeLayout:
+        canvas.before:
+            Color:
+                rgba: 5/255.0, 47/255.0, 61/255.0, 1
+                
+            Rectangle:
+                size: self.size
+                pos: self.pos
+        canvas:
+            Color:
+                rgba: 0, 0, 0, 0
+            Rectangle:
+                size: self.width/1.30, self.height
+                pos: self.center_x - (self.width/1.30) / 2, 0     
+            Line:
+                width: 2
+                rectangle: self.center_x - (self.width/1.30) / 2, 0, self.width/1.30, self.height
+        ActionBar:
+            pos_hint: {'top':1}
+            background_image: ''
+            background_color: 179/255.0, 179/255.0, 179/255.0, 1
+            ActionView:
+                ActionPrevious:
+                    with_previous: False  
+                    app_icon: ''
+                    size_hint_x: None
+                    markup: True
+                ActionOverflow:
+                ActionButton:
+                    text: 'Home'
+                    on_release: app.root.current = 'main_page'
+                    color: 0, 0, 0, 1
+                ActionButton:
+                    text: 'Stream'
+                    on_release: app.root.current = 'PlayScreen'
+                    color: 0, 0, 0, 1
+                ActionButton:
+                    text: 'Library'
+                    on_release: app.root.current = 'Album'
+                    color: 0, 0, 0, 1
+                ActionButton:
+                    text: 'Upload'
+                    color: 0, 0, 0, 1
+     
+        BoxLayout:
+            orientation: 'vertical'
+            spacing: 10
+            AnchorLayout:
+                anchor_x: 'center'
+                anchor_y: 'center'
+                spacing: 15
+                Image:
+                    source: 'Images/C2C.jpg'
+                    size: self.size
+                    halign: 'center'
+                    valign: 'center'
+                    center: self.center
+                    pos_hint: {"y":-0.9}
+                    size_hint: 0.4, 0.4
+                    allow_stretch: True
+                Label:
+                    text: 'Song Name'
+                    text_size: self.size
+                    #halign: 'center'
+                    #valign: 'center'
+                    #center: self.center
+                    #size_hint: 2, 2
+                    #pos_hint: {"y":-0.4}
+
+        BoxLayout:
+            orientation: 'horizontal'
+            spacing: 20
+            Button:
+                background_normal: 'Images/Previous.png'
+                #text: 'Previous'
+                #text_size: self.size
+                valign: 'bottom'
+                halign: 'center'
+                size_hint: 0.05, 0.05
+                border: (0, 0, 0, 0)
+                allow_stretch: True
+            Button:
+                background_normal: 'Images/Play.png'
+                #text: 'Play'
+                #text_size: self.size
+                #pos_hint: {"x":0.35, "y":0.1}
+                valign: 'bottom'
+                halign: 'center'
+                size_hint: 0.05, 0.05
+                border: (0, 0, 0, 0)
+                allow_stretch: True
+                on_release: root.play_sound()
+                #on_stop: stop()
+                #on_play: on_release: root.stop()
+            Button:
+                background_normal: 'Images/Next.png'
+                #text: 'Next'
+                #text_size: self.size
+                valign: 'bottom'
+                halign: 'center'
+                size_hint: 0.05, 0.05
+                border: (0, 0, 0, 0)
+                allow_stretch: True
+            Button:
+                background_normal: 'Images/Like.png'
+                #text: 'Like'
+                #text_size: self.size
+                valign: 'bottom'
+                halign: 'center'
+                size_hint: 0.05, 0.05
+                border: (0, 0, 0, 0)
+                allow_stretch: True
+                
+                
+
+
+            

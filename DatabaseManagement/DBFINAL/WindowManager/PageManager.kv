@@ -1,0 +1,20 @@
+#: include WindowManager/LoginWindow.kv
+#: include WindowManager/MainPage.kv
+#: include WindowManager/PlayScreen.kv
+#: include WindowManager/Album.kv
+#import FadeTransition kivy.uix.screenmanager.FadeTransition
+
+PageManager:
+    LoginWindow:
+    MainPage:
+    PlayScreen:
+    Album:
+	#transition: FadeTransition()
+
+
+<LoginWindow>
+	canvas.before:
+		Rectangle:
+			pos: self.pos
+			size: self.size
+			source: 'images/Background.png'

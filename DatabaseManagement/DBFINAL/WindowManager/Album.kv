@@ -1,0 +1,189 @@
+<Album>:
+    id: Album
+    name: 'Album'
+    GridLayout:
+        rows: 5
+        spacing: -20
+
+        ActionBar:
+            pos_hint: {'top':1}
+            background_image: ''
+            background_color: 179/255.0, 179/255.0, 179/255.0, 1
+            ActionView:
+                ActionPrevious:
+                    with_previous: False  
+                    app_icon: ''
+                    size_hint_x: None
+                    markup: True
+                ActionOverflow:
+                ActionButton:
+                    text: 'Home'
+                    on_release: app.root.current = 'main_page'
+                    color: 0, 0, 0, 1
+                ActionButton:
+                    text: 'Stream'
+                    on_release: app.root.current = 'PlayScreen'
+                    color: 0, 0, 0, 1
+                ActionButton:
+                    text: 'Library'
+                    on_release: app.root.current = 'Album'
+                    color: 0, 0, 0, 1
+                ActionButton:
+                    text: 'Upload'
+                    color: 0, 0, 0, 1
+
+        GridLayout:
+            spacing: -10
+            cols: 3
+            #column 1
+            BoxLayout:
+                orientation: 'vertical'
+                padding: [10, 20, 0, 0]
+                BoxLayout:
+                    orientation: 'vertical'
+                    Label:
+                        text: "Photo"
+                        text_size: self.size
+                        font_size: 20
+                        valign: 'top'
+
+                BoxLayout:
+                    orientation: 'vertical'
+                    Label:
+                        text: "About"
+                        text_size: self.size
+                        valign: 'top'
+                        font_size: 24
+                            #text_size: root.width-28,28
+
+            #column 2
+            BoxLayout:
+                orientation: 'vertical'
+                #padding: [0,-90,0,0]
+                #spacing: 50
+                GridLayout:
+                    rows: 3
+                    #spacing: -20
+                    BoxLayout:
+                        padding: [0,-150,0,0]
+                        orientation: 'vertical'
+                        Label:
+                            text: "Album Name"
+                            #text_size: self.size
+                            #valign: 'center'
+                            font_size: 24
+                    BoxLayout:
+                        orientation: 'vertical'
+                        padding: [0,-300,0,0]
+                        Label:
+                            text: "Artist"
+                            #text_size: self.size
+                            #valign: 'top'
+                            font_size: 24
+                            #halign: 'left'
+                            #text_size: root.width-28,28
+
+                    BoxLayout:
+                        orientation: 'vertical'
+                        padding: [0,-270,0,0]
+                        GridLayout: 
+                            rows: 8
+                            
+                            Label:
+                                text: "Name of Song"
+                                #text_size: self.size
+                                font_size: 20
+                                #valign: 'top'
+                            Label:
+                                text: "Name of Song"
+                                #text_size: self.size
+                                font_size: 20
+                                #valign: 'bottom'
+                            Label:
+                                text: "Name of Song"
+                                #text_size: self.size
+                                font_size: 20
+                                #valign: 'middle'
+                            Label:
+                                text: "Name of Song"
+                                #text_size: self.size
+                                font_size: 20
+                                #valign: 'middle'
+                            Label:
+                                text: "Name of Song"
+                                #text_size: self.size
+                                font_size: 20
+                                #valign: 'middle'
+                            Label:
+                                text: "Name of Song"
+                                #text_size: self.size
+                                font_size: 20
+                                #valign: 'middle'
+                            Label:
+                                text: "Name of Song"
+                                #text_size: self.size
+                                font_size: 20
+                                #valign: 'middle'
+                            Label:
+                                text: "Name of Song"
+                                #text_size: self.size
+                                font_size: 20
+                                #valign: 'middle'
+
+            #column 3
+            BoxLayout:
+                orientation: 'vertical'
+                #padding: [10, 20, 10, 0]
+                BoxLayout:
+                    orientation: 'vertical'
+                    padding: [0,20,10,0]
+                    Label:
+                        text:"Involved Artists"
+                        text_size: self.size
+                        valign: 'top'
+                        font_size: 24
+                BoxLayout:
+                    orientation: 'vertical'
+                    padding: [0,-170,0,0]
+                    GridLayout: 
+                        rows: 8
+                        Label:
+                            text: "Artist(s)/Group Name"
+                            #text_size: self.size
+                            font_size: 20
+                            #valign: 'top'
+                        Label:
+                            text:"Artist(s)/Group Name"
+                            #text_size: self.size
+                            font_size: 20
+                            #valign: 'bottom'
+                        Label:
+                            text:"Artist(s)/Group Name"
+                            #text_size: self.size
+                            font_size: 20
+                            #valign: 'middle'
+                        Label:
+                            text:"Artist(s)/Group Name"
+                            #text_size: self.size
+                            font_size: 20
+                            #valign: 'middle'
+                        Label:
+                            text:"Artist(s)/Group Name"
+                            #text_size: self.size
+                            font_size: 20
+                            #valign: 'middle'
+                        Label:
+                            text:"Artist(s)/Group Name"
+                            #text_size: self.size
+                            font_size: 20
+                            #valign: 'middle'
+                        Label:
+                            text:"Artist(s)/Group Name"
+                            #text_size: self.size
+                            font_size: 20
+                            #valign: 'middle'
+                        Label:
+                            text:"Artist(s)/Group Name"
+                            #text_size: self.size
+                            font_size: 20
+                            #valign: 'middle'

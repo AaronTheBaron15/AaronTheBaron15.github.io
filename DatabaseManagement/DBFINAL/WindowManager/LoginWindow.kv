@@ -1,0 +1,65 @@
+#:include WindowManager/Connect.kv
+<LoginWindow>
+    name: 'LoginWindow'
+    BoxLayout:
+        id: login_layout
+        orientation: 'vertical'
+        padding: [10,50,10,50]
+        spacing: 50
+        
+        Label:
+            text: "Sign In"
+            font_size: 32
+        Label:
+            text: "Welcome Back!"
+            font_size: 14
+
+        BoxLayout: 
+            orientation: 'vertical'
+
+            Label:
+                text: "Username"
+                font_size: 24
+                halign: 'left'
+                text_size: root.width-28,28
+
+            TextInput:
+                id:login
+                multiline: False
+                font_size: 18
+
+        BoxLayout:
+            orientation: 'vertical'
+            Label:
+                text: "Password"
+                halign: 'left'
+                font_size: 24
+                text_size: root.width-28,28
+
+            TextInput:
+                id: password
+                multiline: False
+                password: True
+                font_size: 20
+
+        Button:
+            text: 'Sign in'
+            font_size: 24
+            on_release: app.root.current = 'main_page'
+            #on_press: root.do_login(login.text, password.text)
+            
+
+	#canvas.before:
+        #Color:
+            #rgba: 5/255.0, 47/255.0, 61/255.0, 1
+        #Rectangle:
+            #size: self.size
+            #pos: self.pos
+    
+    #StackLayout:
+        #Button:
+            #size:(5,5)
+            #text:"Login Page"
+            #on_release: app.root.current = 'main_page'
+
+    
