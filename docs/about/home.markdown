@@ -4,8 +4,8 @@
 
 layout: page
 title: Home
-permalink: /home/
-published: true
+permalink: /about/home/
+published: false
 ---
 
 ### This is my website to show projects for computer science.
