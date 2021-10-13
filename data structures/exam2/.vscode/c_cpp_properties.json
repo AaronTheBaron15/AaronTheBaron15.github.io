@@ -4,12 +4,12 @@
             "name": "Whitworth CS",
             "includePath": [
                 "\"${workspaceFolder}\"/**",
-                "\"/usr/local/lib/googletest/include\""
+                "\"C:/googletest/include\""
             ],
             "defines": [
                 "_DEBUG"
             ],
-            "compilerPath": "\"g++\"",
+            "compilerPath": "\"C:/mingw-w64/mingw64/bin/g++.exe\"",
             "cStandard": "c11",
             "cppStandard": "c++17",
             "intelliSenseMode": "clang-x64"
