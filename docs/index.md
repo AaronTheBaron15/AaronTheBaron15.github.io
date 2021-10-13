@@ -8,6 +8,6 @@ permalink: /index/
 published: true
 ---
 
-### This is my website to show projects for computer science.
+This is my website to show projects for computer science.
 
 I hope you are having a great day!
