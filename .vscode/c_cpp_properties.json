@@ -3,7 +3,7 @@
         {
             "name": "Whitworth CS",
             "includePath": [
-                "\"${workspaceFolder}\"/**"
+                "${workspaceFolder}/**"
                 //"\"C:/googletest/include\""
             ],
             "defines": [

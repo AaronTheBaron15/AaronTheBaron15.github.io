@@ -2,7 +2,7 @@
 layout: page
 title: Computer Science 1
 permalink: /CS1/about
-published: true
+published: false
 ---
 
 This class was an introduction to C++, and the first step in learning how to program. 
