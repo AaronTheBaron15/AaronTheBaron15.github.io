@@ -15,9 +15,9 @@
 //#include "../headers/customer.h"
 //#include "../headers/shop.h"
 
-#include "iceCream.h"
-#include "customer.h"
-#include "shop.h"
+#include "../headers/iceCream.h"
+#include "../headers/customer.h"
+#include "../headers/shop.h"
 
 using namespace std;
 
