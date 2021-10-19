@@ -30,7 +30,7 @@ namespace _2048WindowsAppsCS371
         public Tile(string val)
         {
             value = val;
-            switch (val)
+            switch (val) //choses color of tile based on what number it is
             {
                 case "":
                     color = Colors.DarkGray;
@@ -84,7 +84,7 @@ namespace _2048WindowsAppsCS371
             int ival = int.Parse(other.value) + int.Parse(t.value);
             string sval = ival.ToString();
 
-            return new Tile(sval);
+            return new Tile(sval); //returns a new Tile that has a value of sval 
         }
 
 

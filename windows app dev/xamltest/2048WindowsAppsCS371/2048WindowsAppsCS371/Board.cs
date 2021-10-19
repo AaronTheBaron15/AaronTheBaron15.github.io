@@ -28,11 +28,11 @@ namespace _2048WindowsAppsCS371
 
     }
 
-    //controls the whole game basically
+    //controls the whole game basically (score, has won vs has lost, tile class
     class Board
     {
 
-        public int score { get; set; }
+        public int score { get; set; } //what the score of the game is, when two tiles are combined the resulting tile adds to the score
         public bool hasWon { get; set; } //if the board has won at all
         public bool hasLost { get; set; } //if the board has lost at all
         public Tile[,] board { get; set; } //creates a 2D array of tiles
@@ -60,6 +60,7 @@ namespace _2048WindowsAppsCS371
                     board[i, j] = new Tile(); //sets the tile at the row, col position to empty
                 }
             }
+
             Random rand = new Random(); //new Random class instance for making new tiles 
             for (int i = 0; i < 2; i++) //iterates until two new tiles placed
             { 
@@ -69,7 +70,16 @@ namespace _2048WindowsAppsCS371
                 {
                     if (board[row, col].color == Colors.DarkGray) //if the color of the random spot is "empty"
                     {
-                        board[row, col] = new Tile("2"); //create a new tile with a number 
+                        int randNum = rand.Next(10);
+                        if (randNum % 2 == 1) //if row is even
+                        {
+                            board[row, col] = new Tile("2");
+                        }
+                        else if (randNum % 2 == 0)
+                        {
+                            board[row, col] = new Tile("4"); //create a new tile with a number 
+                        }
+                        //board[row, col] = new Tile("2"); //create a new tile with a number 
                     }
                     else //otherwise if there was a tile there
                     {

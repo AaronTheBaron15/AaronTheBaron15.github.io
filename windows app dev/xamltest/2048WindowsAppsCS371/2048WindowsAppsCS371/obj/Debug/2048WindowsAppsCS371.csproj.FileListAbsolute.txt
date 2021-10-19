@@ -87,3 +87,18 @@ C:\Users\cgrode22\source\final\xamltest\2048WindowsAppsCS371\2048WindowsAppsCS37
 C:\Users\cgrode22\source\final\xamltest\2048WindowsAppsCS371\2048WindowsAppsCS371\obj\Debug\2048WindowsAppsCS371.csproj.CoreCompileInputs.cache
 C:\Users\cgrode22\source\final\xamltest\2048WindowsAppsCS371\2048WindowsAppsCS371\obj\Debug\2048WindowsAppsCS371.exe
 C:\Users\cgrode22\source\final\xamltest\2048WindowsAppsCS371\2048WindowsAppsCS371\obj\Debug\2048WindowsAppsCS371.pdb
+C:\Users\aborjas22\Desktop\github pages\AaronTheBaron15.github.io\windows app dev\xamltest\2048WindowsAppsCS371\2048WindowsAppsCS371\bin\Debug\2048WindowsAppsCS371.exe.config
+C:\Users\aborjas22\Desktop\github pages\AaronTheBaron15.github.io\windows app dev\xamltest\2048WindowsAppsCS371\2048WindowsAppsCS371\bin\Debug\2048WindowsAppsCS371.exe
+C:\Users\aborjas22\Desktop\github pages\AaronTheBaron15.github.io\windows app dev\xamltest\2048WindowsAppsCS371\2048WindowsAppsCS371\bin\Debug\2048WindowsAppsCS371.pdb
+C:\Users\aborjas22\Desktop\github pages\AaronTheBaron15.github.io\windows app dev\xamltest\2048WindowsAppsCS371\2048WindowsAppsCS371\obj\Debug\2048WindowsAppsCS371.csproj.AssemblyReference.cache
+C:\Users\aborjas22\Desktop\github pages\AaronTheBaron15.github.io\windows app dev\xamltest\2048WindowsAppsCS371\2048WindowsAppsCS371\obj\Debug\MainWindow.g.cs
+C:\Users\aborjas22\Desktop\github pages\AaronTheBaron15.github.io\windows app dev\xamltest\2048WindowsAppsCS371\2048WindowsAppsCS371\obj\Debug\App.g.cs
+C:\Users\aborjas22\Desktop\github pages\AaronTheBaron15.github.io\windows app dev\xamltest\2048WindowsAppsCS371\2048WindowsAppsCS371\obj\Debug\2048WindowsAppsCS371_MarkupCompile.cache
+C:\Users\aborjas22\Desktop\github pages\AaronTheBaron15.github.io\windows app dev\xamltest\2048WindowsAppsCS371\2048WindowsAppsCS371\obj\Debug\2048WindowsAppsCS371_MarkupCompile.lref
+C:\Users\aborjas22\Desktop\github pages\AaronTheBaron15.github.io\windows app dev\xamltest\2048WindowsAppsCS371\2048WindowsAppsCS371\obj\Debug\MainWindow.baml
+C:\Users\aborjas22\Desktop\github pages\AaronTheBaron15.github.io\windows app dev\xamltest\2048WindowsAppsCS371\2048WindowsAppsCS371\obj\Debug\2048WindowsAppsCS371.g.resources
+C:\Users\aborjas22\Desktop\github pages\AaronTheBaron15.github.io\windows app dev\xamltest\2048WindowsAppsCS371\2048WindowsAppsCS371\obj\Debug\_2048WindowsAppsCS371.Properties.Resources.resources
+C:\Users\aborjas22\Desktop\github pages\AaronTheBaron15.github.io\windows app dev\xamltest\2048WindowsAppsCS371\2048WindowsAppsCS371\obj\Debug\2048WindowsAppsCS371.csproj.GenerateResource.cache
+C:\Users\aborjas22\Desktop\github pages\AaronTheBaron15.github.io\windows app dev\xamltest\2048WindowsAppsCS371\2048WindowsAppsCS371\obj\Debug\2048WindowsAppsCS371.csproj.CoreCompileInputs.cache
+C:\Users\aborjas22\Desktop\github pages\AaronTheBaron15.github.io\windows app dev\xamltest\2048WindowsAppsCS371\2048WindowsAppsCS371\obj\Debug\2048WindowsAppsCS371.exe
+C:\Users\aborjas22\Desktop\github pages\AaronTheBaron15.github.io\windows app dev\xamltest\2048WindowsAppsCS371\2048WindowsAppsCS371\obj\Debug\2048WindowsAppsCS371.pdb
