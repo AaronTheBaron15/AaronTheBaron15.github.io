@@ -13,5 +13,10 @@ For my final project, I worked with one other student to create an application f
 
 ![game and code](game and code.png "Game with code")
 
-The game is controlled by three main classes: a board class, a tile class, and an exception handling class.
+The game is controlled by three main classes: a board class, a tile class, an exception handling class, and a class that helps our C# code interact with the XAML elements. Below, I have a class diagram to show the member methods and variables of each class, and interfaces that the classes might use.
 
+![classdiagram](classdiagram.png "Class Diagram")
+
+The exception handling class, badPlacement, helps handle the placement of tiles on our 4x4 grid. This throws an error if a newly generated tile is placed on top of an already existing tile. If the error is thrown, it will be caught and then retry placing the tile.
+
+![exceptions](exceptions.png "Exception Handling")
