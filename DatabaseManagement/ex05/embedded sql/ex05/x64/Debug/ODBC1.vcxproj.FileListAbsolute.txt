@@ -1,4 +1,0 @@
-C:\Users\Aaron\Downloads\EmbeddedSQL\EmbeddedSQL\ODBC1\x64\Debug\ODBC1.exe
-C:\Users\Aaron\Downloads\EmbeddedSQL\EmbeddedSQL\ODBC1\x64\Debug\ODBC1.pdb
-C:\Users\Aaron\Desktop\school\DatabaseManagement\ex05\embedded sql\ex05\x64\Debug\ODBC1.exe
-C:\Users\Aaron\Desktop\school\DatabaseManagement\ex05\embedded sql\ex05\x64\Debug\ODBC1.pdb

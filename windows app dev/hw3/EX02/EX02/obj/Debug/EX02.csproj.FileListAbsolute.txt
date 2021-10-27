@@ -1,7 +1,0 @@
-C:\Users\Aaron\Desktop\hw3\EX02\EX02\obj\Debug\EX02.csprojAssemblyReference.cache
-C:\Users\aborjas22\Desktop\hw3\EX02\EX02\bin\Debug\EX02.exe.config
-C:\Users\aborjas22\Desktop\hw3\EX02\EX02\bin\Debug\EX02.exe
-C:\Users\aborjas22\Desktop\hw3\EX02\EX02\bin\Debug\EX02.pdb
-C:\Users\aborjas22\Desktop\hw3\EX02\EX02\obj\Debug\EX02.csprojAssemblyReference.cache
-C:\Users\aborjas22\Desktop\hw3\EX02\EX02\obj\Debug\EX02.exe
-C:\Users\aborjas22\Desktop\hw3\EX02\EX02\obj\Debug\EX02.pdb

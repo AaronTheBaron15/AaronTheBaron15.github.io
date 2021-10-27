@@ -7,6 +7,9 @@ using System.Windows.Media;
 
 namespace _2048WindowsAppsCS371
 {
+    //a class for the individual tiles on the board. 
+    //member variables include the number value of the tile, the color, the location on the board, and a status on if it is combined
+    //member functions includean operator overload for addition and CompareTo, which compares two instances of the class.
     class Tile : IComparable<Tile>
     {
         public string value { get; set; }
@@ -17,6 +20,7 @@ namespace _2048WindowsAppsCS371
 
         
         //default constructor
+        //sets color to dark gray, value is empty, and it is not combined
         public Tile()
         {
             color = Colors.DarkGray;
@@ -25,7 +29,7 @@ namespace _2048WindowsAppsCS371
         }
 
         //constructor by value
-        //takes in a string with a number in it
+        //takes in a string with a number in it, which is assigned to value of the tile.
         //sets the color based on the value
         public Tile(string val)
         {
@@ -81,8 +85,8 @@ namespace _2048WindowsAppsCS371
         //output - returns a tile that has a combination value of the two input tiles
         public static Tile operator +(Tile t, Tile other)
         {
-            int ival = int.Parse(other.value) + int.Parse(t.value);
-            string sval = ival.ToString();
+            int ival = int.Parse(other.value) + int.Parse(t.value); //adds the value variable of each tile together.
+            string sval = ival.ToString(); //converts the value of addition of two tiles to string
 
             return new Tile(sval); //returns a new Tile that has a value of sval 
         }
@@ -97,17 +101,17 @@ namespace _2048WindowsAppsCS371
             try
             {
 
-                if (Int32.Parse(this.value) == Int32.Parse(t.value))
+                if (Int32.Parse(this.value) == Int32.Parse(t.value)) //if the two tiles are equal to each other
                 {
                     return 0;
                 }
-                else if (Int32.Parse(this.value) < Int32.Parse(t.value))
+                else if (Int32.Parse(this.value) < Int32.Parse(t.value)) //if the current instance's value is less than the value of the second tile's value
                 {
-                    return -1;
+                    return -1; //return -1, which indicates this.value is less than t.value
                 }
-                else
+                else //otherwise, this.value is greater than t.value
                 {
-                    return 1;
+                    return 1; //return 1, indicates this.value is greater than t.value
                 }
             }
             catch (Exception e) //catch the empty string exception

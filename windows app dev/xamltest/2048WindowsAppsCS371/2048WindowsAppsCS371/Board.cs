@@ -16,7 +16,7 @@ using System.Windows.Ink;
 
 namespace _2048WindowsAppsCS371
 {
-    //badPlacement: an exception handling class. thats it
+    //badPlacement: an exception handling class.
     [Serializable]
     class badPlacement : ApplicationException
     {
@@ -28,7 +28,7 @@ namespace _2048WindowsAppsCS371
 
     }
 
-    //controls the whole game basically (score, has won vs has lost, tile class
+    //controls the whole game basically (score, has won vs has lost, the 2d array of tiles, moving tiles according to keyboard input)
     class Board
     {
 

@@ -1,3 +1,0 @@
-﻿  Assembling main.asm...
-main.asm(9): warning A4011: multiple .MODEL directives found : .MODEL ignored
-  ex1.vcxproj -> C:\Users\Aaron\Desktop\school\SG6\ex1\Debug\ex1.exe
